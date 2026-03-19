@@ -4,3 +4,4 @@ node_modules
 dist
 CLAUDE.md
 My Clippings.txt
+.DS_Store
