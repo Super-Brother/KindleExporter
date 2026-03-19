@@ -1,0 +1,28 @@
+{
+  "name": "kindle-exporter",
+  "version": "1.0.0",
+  "description": "Kindle 笔记导出工具",
+  "main": "electron.cjs",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": ["kindle", "notes", "export"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "docx": "^8.5.0"
+  },
+  "build": {
+    "appId": "com.kindle.exporter",
+    "productName": "KindleExporter",
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": "dmg"
+    }
+  }
+}
